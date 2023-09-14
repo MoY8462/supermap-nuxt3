@@ -17,6 +17,10 @@ export default defineNuxtConfig({
           rel: "stylesheet"
         },
         {
+          href: "https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.min.css",
+          rel: "stylesheet"
+        },
+        {
           href: "https://unpkg.com/@geoman-io/leaflet-geoman-free@latest/dist/leaflet-geoman.css",
           rel: "stylesheet"
         }
@@ -30,6 +34,9 @@ export default defineNuxtConfig({
         },
         {
           src:"https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.2/leaflet.draw.js"
+        },
+        {
+          src:"https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.js"
         },
         {
           src:"https://unpkg.com/@geoman-io/leaflet-geoman-free@latest/dist/leaflet-geoman.min.js"
